@@ -5,11 +5,7 @@
 
 import sys
 
-if len(sys.argv) > 0:
-    timer = int(sys.argv[1])
-else:
-    timer = 3
-
+timer = int(sys.argv[1])
 while timer != 0:
     print(timer)
     timer = timer - 1
